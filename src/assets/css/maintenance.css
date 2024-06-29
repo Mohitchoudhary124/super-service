@@ -1,0 +1,59 @@
+.maintenance1{
+    background-image: url(../images/Rectangle\ 55.png), url(../images/1S9A8287_1\ 1.png);
+    background-size: cover;
+    z-index: -1;
+
+}
+.maintenance2{
+    background-image: url(../images/Rectangle\ 55.png),url(../images/1S9A8406_1\ 1.png);
+    background-size: cover;
+    z-index: -1;
+}
+
+.maintenance-sec-b2{
+    color: #000000;
+    background-color: #F9DF08;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 12px 30px;
+    z-index: 100;
+}
+.maintenance1-content h3{
+    z-index: 100;
+    color: #F9DF08;
+    font-family: 'Work Sans',sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: -0.01em;
+}
+.maintenance1-content h2{
+    z-index: 100;
+    color: #fff;
+}
+.maintenance1-content{
+   padding-top: 40%;
+   padding-left: 10%;
+   padding-right: 40%;
+}
+
+@media only screen and (max-width: 786px) and (min-width: 300px)  {
+    .maintenance-sec-b2{
+        font-size: 16px;
+        line-height: 18px;
+        padding: 10px 40px;
+    }
+    .maintenance1-content h3{
+        font-size: 23px;
+        line-height: 50px;
+    }
+
+}
+@media only screen and (max-width: 1020px) and (min-width: 786px)  {
+    .maintenance1-content{
+        padding-top: 40%;
+        padding-left: 10%;
+        padding-right: 20%;
+     }
+}

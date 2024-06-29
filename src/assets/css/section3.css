@@ -1,0 +1,122 @@
+.slider-cards{
+    margin-top: -80px;
+    /* z-index: 10; */
+    justify-content: space-around;
+}
+.scard{
+    background-color: #fff;
+    height: 160px;
+    width: 220px;
+    border-radius: 21px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card img{
+    margin: 10px;
+    width: 38px;
+}
+.section3-why h3{
+    text-align: center;
+    font-family: 'Work Sans',sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 116.49px;
+    letter-spacing: -0.01em;
+    color: #000000 ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section3-d1 img{
+    width: 740px;
+    margin-bottom: -80px;
+}
+.section-d2{
+    padding: 55px;
+}
+.section-d2 h3{
+    font-family: 'Work Sans',sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 116.49px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #000000 ;  
+}
+.section-d2 ul li{
+    font-family: 'Work Sans',sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #000000;
+}
+
+@media only screen and (max-width: 1030px) {
+    
+    .scard{
+        height: 120px;
+        width: 160px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .scard h4{
+        font-size: 20px;
+    }
+    .section-d2 h3{
+        line-height: 55px;
+        font-size: 40px;
+    }
+    .section-d2 ul li{
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .section-d2 ul{
+        margin-bottom: 5px;
+    }
+    .hero-sec-b1{
+        margin-top: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 830px) {
+    .scard{
+        height: 120px;
+        width: 140px;
+    }
+    .scard h4{
+        font-size: 18px;
+    }
+    .section3-why h3{
+        font-size: 44px;
+        font-weight: 800;
+        line-height: 55px;       
+    }
+    .section-d2 h3{
+        font-size: 36px;
+        line-height: 38px;
+    }
+    .section-d2 ul li{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .hero-sec-b1{
+        padding: 5px 10px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .slider-cards{
+        margin-top: 30px;
+    }
+    .section3-why h3{
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 55px;       
+    }
+    .section-d2 h3{
+        line-height: 55px;
+    }
+}

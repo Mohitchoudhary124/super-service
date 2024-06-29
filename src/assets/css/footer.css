@@ -1,0 +1,42 @@
+.footer-inner{
+    justify-content: space-around;
+}
+.footer{
+    background-color: #000000;
+}
+.footer-col2 ul li{
+    font-family: 'Work Sans',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    list-style: none;
+}
+.col3-image{
+    gap: 1.5rem;
+}
+.footer-col3 h3{
+    font-family: 'Work Sans',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    color: #F9DF08;
+}
+.footer-social{
+    margin-top: 1.5rem;
+    gap: 1.5rem;
+}
+.social-button a{
+    color: #000000;
+    background-color: #F9DF08;
+}
+.footer-button a{
+    background-color: #F9DF08;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 10px 20px;
+}
